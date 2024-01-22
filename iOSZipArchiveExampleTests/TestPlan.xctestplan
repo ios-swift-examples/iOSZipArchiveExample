@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "3B6A6AB8-2900-4896-A9F2-B7BDE31E6F76",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:iOSZipArchiveExample.xcodeproj",
+        "identifier" : "2CD1FB6E2B57A65500B1CBB8",
+        "name" : "iOSZipArchiveExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
